@@ -1,0 +1,30 @@
+.select__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: 522px;
+  height: 100%;
+  z-index: 5;
+}
+
+.select {
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  width: 256px;
+  height: 64px;
+  background-color: rgba(26, 255, 0, 0.938);
+  border: 5px solid black;
+}
+
+.select__figure {
+  box-sizing: border-box;
+  width: 64px;
+  border: 1px solid black;
+  cursor: pointer;
+}

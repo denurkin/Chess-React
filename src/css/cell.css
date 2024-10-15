@@ -1,0 +1,23 @@
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: rgb(75, 75, 255);
+}
+
+.avalible {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: rgb(21, 174, 21);
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
